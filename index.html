@@ -1,86 +1,90 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+ <html lang="en">
 
-	  <head>
+	 <head>
+	 <!--responsive viewport setup-->
 	    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	    <meta charset="utf-8">
-	   <link rel="stylesheet" href="./mystyle.css">
+	    <link rel="stylesheet" href="./mystyle.css">
+	    <!-- adding the bootstrap css and jquery through MAXcdn-->
 	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>The Brighton Times</title>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <title>The Brighton Times</title> <!--Title of the page-->
+	 </head>
 	  
-	  </head>
-	  
-	  <body>
-	  <div class="container-fluid" style="padding:50px;">
-	  <div class="container-fluid" style="position:relative;">
-	  <div class="row">
-	   <div class="col-sm-2"><img src="images/logo.jpg" class="img-thumbnail" alt="logo"></div>
+	 <body>
+	     <div class="container-fluid" style="padding:50px;"> <!--putting the whole page in a full width container it uses the full width of the device on which the page is being displayed-->
+	     <div class="container-fluid" style="position:relative;"> <!--using container to put the masthead design of the page-->
+	     <div class="row">
+	     <div class="col-sm-2"><img src="images/logo.jpg" class="img-thumbnail" alt="logo"></div>
 	   	 <div class="col-sm-9">	<h1 style="font-size:75px;">The Brighton Times</h1></div>
-		  </div>
-		  <br>
+		   </div>
+		   <br>
 		   <hr name="firsthr">
-	  </div>
-		  <br>
-	  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <ul style="padding-left:60px;" class="nav navbar-nav">
-        <li class="active"><a style="font-size:20px;"href="#">NEWS</a></li>
-        <li style="padding-left:100px;"><a style="font-size:20px; href="#">EVENTS</a></li>
-        <li style="padding-left:100px;"><a style="font-size:20px; href="#">CULTURE</a></li>
-        <li style="padding-left:100px;"><a style="font-size:20px; href="#">BLOG</a></li>
-      </ul>
-    </div>
-  </nav>
+	     </div>
+		   <br>
+		   <!--responsice navigation bar with some inline css modification-->
+	    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <ul style="padding-left:60px;" class="nav navbar-nav">
+            <li class="active" style="padding-left:100px;"><a style="font-size:20px;"href="#">NEWS</a></li>
+            <li style="padding-left:100px;"><a style="font-size:20px; href="#">EVENTS</a></li>
+            <li style="padding-left:100px;"><a style="font-size:20px; href="#">CULTURE</a></li>
+            <li style="padding-left:100px;"><a style="font-size:20px; href="#">BLOG</a></li>
+          </ul>
+        </div>
+      </nav>
 	  
-	  <div name="newscontainer" class="container-fluid">
-	  <!--image news container with paragraph-->
-	  <img src="./images/news.jpg" alt="news image" class="newsimage">
-	  <h2 name="newsh2">Absolutely astonishing breaking news!</h2>
-	  <p class="newspara">Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko. Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
-	  </div>
-	  <br>
-  <table class="table table-stripped">
-  <thead>
-  <tr>
-  <th>TOP NEWS</th>
-  <th>+MORE</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr><td style="color:grey;">» Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</td></tr>
-  <tr><td style="color:grey;">» Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester</td></tr>
-  <tr><td style="color:grey;">» Organic raw denim lomo Kickstarter art Vice ke yeh four loko.</td></tr>
-  <tr><td style="color:grey;">» Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko.</td></tr>
-  <tr><td style="color:grey;">» Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</td></tr>
-  <tr><td style="color:grey;">» Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.</td></tr>
-  </tbody>
+  	  <div name="newscontainer" class="container-fluid">
+  	  <!--image and news container with paragraph-->
+  	  <img src="./images/news.jpg" alt="news image" class="newsimage">
+  	  <h2 name="newsh2">Absolutely astonishing breaking news!</h2>
+  	  <p class="newspara">Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art fourloko.     Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko.</p>
+	    </div>
+	    <br>
+      <table class="table table-stripped">  <!-- using stripped table to show top news in a list view format-->
+        <thead>
+          <tr>
+            <th>TOP NEWS</th>
+            <th>+MORE</th>
+          </tr>
+        </thead>
+      <tbody>
+         <tr><td style="color:grey;">» Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</td></tr>
+         <tr><td style="color:grey;">» Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester</td>
+         </tr>
+        <tr><td style="color:grey;">» Organic raw denim lomo Kickstarter art Vice ke yeh four loko.</td></tr>
+        <tr><td style="color:grey;">» Organic raw denim Vice ke yeh lomo Kickstarter art lomo Kickstarter art four loko.  
+       </td></tr>
+       <tr><td style="color:grey;">» Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache.</td></tr>
+      <tr><td style="color:grey;">» Squid lomo Kickstarter art lomo Kickstarter art party cronut scenester.           </td></ tr>
+      </tbody>
 	  </table>
 	  
 	  <table class="table table-stripped">
 	  <thead>
-	  <tr>
-	  <th style="color:grey;">date</th>
-	  <th style="color:grey;">team</th>
-	  <th style="color:grey;">score</th>
-	  <th style="color:grey;">team</th>
-	  </tr>
+	    <tr>
+	      <th style="color:grey;">date</th>
+	      <th style="color:grey;">team</th>
+	      <th style="color:grey;">score</th>
+	      <th style="color:grey;">team</th>
+	    </tr>
 	  </thead>
 	  <tbody>
-	      <tr>
+	         <tr>
 	            <td>Friday</td>
 	            <td>Bears</td>
 	            <td>95 <b style="padding-left:20px;">109</b></td>
 	            <td><b>Cubs</b></td>
-	      </tr>
-	      <tr>
+	       </tr>
+	        <tr>
 	            <td>Friday</td>
 	            <td><b>Ottors</b></td>
 	            <td><b style="padding-right:25px;">3</b>  1</td>
 	            <td>Cubs</td>
-	      </tr>
-	      <tr>
+	        </tr>
+	        <tr>
 	            <td>Saturday</td>
 	            <td><b>Wolves</b></td>
 	            <td><b style="padding-right:25px;">7</b> 0</td>
@@ -100,7 +104,9 @@
 	      </tr>
 	  </tbody>
 	  </table>
+	  
 	  <br><br>
+	  
 	  <div class="container-fluid">
 	  <h3>Brighton, UK</h3>
 	  <h4>Sunny </h4>
@@ -111,7 +117,7 @@
 	  <br><br>
 	  
 	  <table class="table table-responsive" style="border:none;">
-	  <thead>
+	  <thead><!--showing forecast layout using responsive table--> 
 	  <tr>
 	  <th>Mon</th>
 	  <th>Tues</th>
@@ -147,7 +153,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr><td>
+    <tr><td> <!--latest news display using table-->
    <img src="images/latest.png" name="anything" class="image-thumbnail" alt="image">
     <h4 style="color:grey;"><b>Gastropub distillery Marfa farm-to-table</b></h4>
      <p>Gastropub distillery Marfa farm-to-table, Etsy Truffaut ngerstache. Squid lomo Kickstarter art party cronut
@@ -175,12 +181,12 @@
   </table>
 
 
-  <div class="row" name="footer_name">
+  <div class="row" name="footer_name"><!--foooter using Bootstrap grid system-->
   <div class="col-sm-3"><a name="footer" href="#">Contact us</a></div>
   <div class="col-sm-3"><a name ="footer"href="#">Follow us on Twitter </a></div>
   <div class="col-sm-3"><a  name="footer" href="#">RSS</a></div>
   </div>
 
-	  </div> <!--last division-->
+	  </div> <!--container fluid closes here-->
 	  </body>
-  </html>
+  </html> <!-- end of the page-->
