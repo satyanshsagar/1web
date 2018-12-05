@@ -1,3 +1,4 @@
+ /*fetching hr tag using its name attribute, its first hr tag that acts as a seperator between Head of the page and navigation bar*/
   hr[name="firsthr"]{
 	  color:rgba(0,0,0,0.2);
     border:none;
@@ -8,49 +9,60 @@
 	  border-bottom: 1px;
 	  box-shadow: 0 20px 8px -20px #333;
      margin: -20px auto 10px; 
-  }
+  } 
+  /*styling the Main image of the news that is shown on the top*/
   .newsimage{
   width:100%;
   height:440px;
 
   }
+  /*styling the heading of the main news*/
   h2[name]{
   font-size:30px;
   color:grey;
   font-weight:bold;
   }
+  /*styling of the news paragraph that is shown in the main news container below navigation bar*/
   .newspara{
   font-size:18px;
   color:grey;
   }
+  /*Styling the border of the main news container*/
   div[name="newscontainer"]{
   padding:0px;
   border-left:outset rgba(0,0,0,0.3);
   border-right:inset rgba(0,0,0,0.3);
   border-bottom:inset rgba(0,0,0,0.5) ;
   }
+  </*styling the table rows that shows the top news below the main head news*/
   tr{
   padding:15px;
   }
+  /*styling the font of the top news*/
   td{
   font-size:18px;
   }
+  /*styling the font size of the top news*/
   th{
   font-size:18px;
   }
+  /*styling the container for the table of the score.*/
   div[name="todays"]{
   height:75px;
   width:75px;
   }
+  /*styling the image of the weather news*/
   img[name="hello"]{
   height:125px;
   width:125px;
   }
+  /*styling the images to be shown in the latest news list*/
   img[name="anything"]{
   height:125px;
   float:left;
   padding:10px;
   width:200px;}
+  /*styling the footer of the page*/
   a[name="footer"]{
   color:black;
   font-size:15px;
